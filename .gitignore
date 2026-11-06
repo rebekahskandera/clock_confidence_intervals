@@ -1,0 +1,43 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*$py.class
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.clocks-venv/
+
+# Editor settings / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw data (large, kept local-only)
+Data_Files/
+
+# Hide analysis run on real data
+/TCH_E22_E23_Analysis/
+Clock Analysis/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Generated simulation output (keep only relevant results)
+simulations/simulation_results/
+simulations/old_simulation_results/
+monte_carlo_tch/
+
+# Files used for collecting data
+scripts/
+
+# Other files
+test.ipynb
