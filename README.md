@@ -33,7 +33,7 @@ See LICENSE.txt for details.
 Install directly from GitHub:
 
 ```bash
-python -m pip install "git+https://github.com/rebekahskandera/three_corner_hat.git"
+python -m pip install "git+https://github.com/rebekahskandera/clock_confidence_intervals.git"
 ```
 
 ## Example workflow
