@@ -24,6 +24,7 @@ Data_Files/
 # Hide analysis run on real data
 /TCH_E22_E23_Analysis/
 Clock Analysis/
+Error_Bars_Reading_Data.ipynb
 
 # Packaging and build outputs
 build/
@@ -35,6 +36,7 @@ dist/
 simulations/simulation_results/
 simulations/old_simulation_results/
 monte_carlo_tch/
+simulations/
 
 # Files used for collecting data
 scripts/
