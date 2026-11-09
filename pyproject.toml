@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "deviation_confidence_intervals"
+name = "clock_confidence_intervals"
 version = "0.1.0"
 license = "LGPL-3.0-or-later"
 license-files = ["LICENSE.txt"]
@@ -23,4 +23,4 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/deviation_confidence_intervals"]
+packages = ["src/clock_confidence_intervals"]

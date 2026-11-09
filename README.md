@@ -1,7 +1,7 @@
-# Deviation Confidence Intervals
-The primary purpose of this repository is to calculate and plot erorr bars for fractional frequency deviations given phase or frequency data, including for three-cornered hat measurements.
+# Clock Confidence Intervals
+The primary purpose of this repository is to calculate and plot error bars for fractional frequency deviations given phase or frequency data, including for three-cornered hat measurements.
 
-The Python package is deviation_confidence_intervals,
+The Python package is clock_confidence_intervals,
 and the Jupyter notebook `ADEV_Error_Bars_Workflow.ipynb` demonstrates in detail
 the main uses of the module, including:
 - Calculate required sample time to achieve sufficient Chi-squared
@@ -45,7 +45,7 @@ See [`examples/ADEV_Error_Bars_Workflow.ipynb`](examples/ADEV_Error_Bars_Workflo
 ### Calculate required runtime
 ```python
 
-from deviation_confidence_intervals import required_runtime
+from clock_confidence_intervals import required_runtime
 tau = 1000  
 rate = 1.0
 #    None calculates runtime for all noise types.
@@ -77,7 +77,7 @@ if len(planning['per_alpha']) > 1:
 ### Plot TCH OADEV with Error Bars using error_bars_tch_list and error_bars_plot
 ```python
 import allantools
-from deviation_confidence_intervals import (error_bars_tch_list, plot_error_bars)
+from clock_confidence_intervals import (error_bars_tch_list, plot_error_bars)
 import matplotlib.pyplot as plt
 
 # Generate simple phase difference data
